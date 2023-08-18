@@ -39,7 +39,6 @@ onValue(endorsementsInDB, function(snapshot){
 
     if(snapshot.exists()){
         const endorsementsList = Object.values(snapshot.val());
-        console.log(endorsementsList)
     
         let renderingHtml = ''
     
