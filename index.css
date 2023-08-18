@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    color: #ffff;
+    font-family: 'Josefin Sans';
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 90px;
+    /* margin: 0 auto; */
+}
+
+textarea{
+    box-sizing: border-box;
+    background-color: #444059;
+    border-radius: 8px;
+    color: #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;;
+    line-height: normal;
+    border: none;
+    resize: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    padding: 0;
+}
+
+li{
+    background: #FFF;
+    color: #1B1924;
+    margin: 0 auto 13px auto;
+    padding: 13px 15px 11px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 286px;
+    flex-shrink: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.champions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    flex-shrink: 0;
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    background: #28A9F1;
+    border: none;
+}
+
+#write-endorsement{
+    width: 317px;
+    height: 118px;
+    padding: 12px 16px 13px 19px;
+}
+
+#freddie-img{
+    margin-top: 51px;
+}
+
+#slogan{
+    margin: 17px 0 19px  0;
+}
+
+#publish-btn{
+    margin: 13px 0 24px 0;
+    color: #04131C;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#endorsement-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 19px 0;
+}
+
+#empty-error{
+    color: red;
+    margin: 0 0 10px 0;
+}
